@@ -1,0 +1,31 @@
+{
+    "name": "example-ts-project",
+    "version": "1.0.0",
+    "description": "Sample Project to play with NodeJS streams",
+    "main": "src/index.ts",
+    "author": "Mariano Custiel",
+    "license": "GNU/GPL v3.0",
+    "dependencies": {
+        "@types/node": "^18.0.0",
+        "@types/stream-chain": "^2.0.1",
+        "@types/stream-json": "^1.7.2",
+        "axios": "^0.27.2",
+        "env-var": "^7.3.0",
+        "node": "^18.0.0",
+        "stream-json": "^1.7.4",
+        "ts-loader": "^9.3.1",
+        "ts-node": "^10.9.1",
+        "stream-chain": "^2.2.5",
+        "typescript": "^4.8.3"
+    },
+    "scripts": {
+        "build": "tsc",
+        "serve": "ts-node src/index.ts",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^28.0.0",
+        "jest-mock-extended": "^2.0.7",
+        "ts-jest": "^28.0.0"
+    }
+}
