@@ -1,7 +1,7 @@
 # Node.js streams example
 
 Provides an HTTP server proxying to github to search the top rated repositories.
-The code tries to be clean, SOLID and use some common design patterns.
+The code tries to be clean, SOLID and use some common design patterns. The queries to github are cached, so the second time they are called github is not reached.
 
 ## Query string:
 
